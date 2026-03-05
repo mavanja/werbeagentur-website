@@ -9,3 +9,6 @@ export { Section } from './Section';
 
 // Heading
 export { Heading, Subheading } from './Heading';
+
+// CookieBanner
+export { CookieBanner } from './CookieBanner';
