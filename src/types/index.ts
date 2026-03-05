@@ -1,11 +1,27 @@
+export interface CaseStudyResult {
+  metric: string;
+  value: string;
+  description?: string;
+}
+
 export interface CaseStudy {
   id: string;
+  slug: string;
   title: string;
   client: string;
-  category: string;
-  description: string;
-  results: string[];
-  imageUrl: string;
+  industry: string;
+  shortDescription: string;
+  challenge: string;
+  solution: string;
+  results: CaseStudyResult[];
+  testimonial?: {
+    quote: string;
+    author: string;
+    role: string;
+  };
+  serviceLabels: string[];
+  coverImage: string;
+  galleryImages?: string[];
 }
 
 export interface Service {

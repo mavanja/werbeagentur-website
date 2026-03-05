@@ -1,0 +1,73 @@
+import { CaseStudy } from "@/types";
+
+export const caseStudies: CaseStudy[] = [
+  {
+    id: "1",
+    slug: "techvision-rebrand",
+    title: "Kompletter Markenrelaunch fuer Tech-Startup",
+    client: "TechVision GmbH",
+    industry: "Technologie",
+    shortDescription: "Von unbekannt zu Marktfuehrer: Wie wir ein B2B-Tech-Startup mit mutigem Branding und Performance-Marketing transformierten.",
+    challenge: "TechVision hatte ein innovatives Produkt, aber keine klare Markenidentitaet. Die Zielgruppe kannte sie nicht, und die wenigen Leads konvertierten schlecht. Das Budget war begrenzt, die Erwartungen hoch.",
+    solution: "Wir entwickelten eine komplett neue Brand Identity mit klarem Positioning. Parallel launchten wir eine datengetriebene Performance-Kampagne auf LinkedIn und Google, mit A/B-getesteten Creatives und automatisierten Nurturing-Flows.",
+    results: [
+      { metric: "+340%", value: "Qualifizierte Leads", description: "innerhalb von 6 Monaten" },
+      { metric: "4.2x", value: "ROAS", description: "Return on Ad Spend" },
+      { metric: "-62%", value: "Cost per Lead", description: "gegenueber Vorperiode" },
+    ],
+    testimonial: {
+      quote: "Die Zusammenarbeit hat unser Business transformiert. Endlich werden wir als das wahrgenommen, was wir sind: Innovationsfuehrer in unserem Segment.",
+      author: "Dr. Michael Weber",
+      role: "CEO, TechVision GmbH",
+    },
+    serviceLabels: ["Branding", "Performance Marketing", "Lead Generation"],
+    coverImage: "/images/case-studies/techvision-cover.jpg",
+    galleryImages: ["/images/case-studies/techvision-1.jpg", "/images/case-studies/techvision-2.jpg"],
+  },
+  {
+    id: "2",
+    slug: "naturkraft-ecommerce",
+    title: "E-Commerce Launch mit 7-stelligem Umsatz",
+    client: "NaturKraft Bio",
+    industry: "E-Commerce / FMCG",
+    shortDescription: "Vom lokalen Bioladen zum nationalen E-Commerce-Player mit skalierbarer Wachstumsstrategie.",
+    challenge: "NaturKraft hatte treue Stammkunden im stationaeren Handel, aber null Online-Praesenz. Der E-Commerce-Markt fuer Bio-Produkte war hart umkaempft, die Margen gering.",
+    solution: "Wir bauten einen conversion-optimierten Shopify-Store mit starkem Storytelling. Die Go-to-Market-Strategie kombinierte Influencer-Kooperationen, SEO-Content und gezielte Meta-Ads mit dynamischem Retargeting.",
+    results: [
+      { metric: "€1.2M", value: "Umsatz Jahr 1", description: "im ersten Geschaeftsjahr" },
+      { metric: "28%", value: "Wiederkaufrate", description: "loyale Stammkunden" },
+      { metric: "#3", value: "Ranking Bio-Shops", description: "in der Kategorie" },
+    ],
+    testimonial: {
+      quote: "Wir haetten nie gedacht, dass wir in so kurzer Zeit so viele Menschen erreichen koennen. Das Team hat unsere Vision perfekt umgesetzt.",
+      author: "Anna Bergmann",
+      role: "Gruenderin, NaturKraft Bio",
+    },
+    serviceLabels: ["E-Commerce", "Social Media", "Content Marketing"],
+    coverImage: "/images/case-studies/naturkraft-cover.jpg",
+    galleryImages: ["/images/case-studies/naturkraft-1.jpg"],
+  },
+  {
+    id: "3",
+    slug: "stadtwerke-digital",
+    title: "Digitale Transformation eines Stadtwerks",
+    client: "Stadtwerke Rheintal",
+    industry: "Energie / Oeffentlicher Sektor",
+    shortDescription: "Wie ein traditionelles Stadtwerk zum digitalen Vorreiter wurde und die Kundenzufriedenheit verdoppelte.",
+    challenge: "Veraltete Kommunikationsstrukturen, niedrige digitale Akzeptanz bei Kunden, und ein angestaubtes Image. Die Konkurrenz durch agile Energieanbieter wuchs.",
+    solution: "360-Grad-Digitalstrategie: Neues Kundenportal mit Self-Service-Funktionen, App-Launch, datenbasierte Personalisierung der Kommunikation, und eine Employer-Branding-Kampagne zur Talentgewinnung.",
+    results: [
+      { metric: "+89%", value: "Portal-Nutzung", description: "aktive digitale Kunden" },
+      { metric: "2x", value: "Kundenzufriedenheit", description: "NPS-Score verdoppelt" },
+      { metric: "-45%", value: "Support-Anfragen", description: "durch Self-Service" },
+    ],
+    testimonial: {
+      quote: "Die Agentur hat uns nicht nur digitalisiert, sondern unsere gesamte Denkweise veraendert. Wir sind jetzt bereit fuer die Zukunft.",
+      author: "Thomas Hartmann",
+      role: "Geschaeftsfuehrer, Stadtwerke Rheintal",
+    },
+    serviceLabels: ["Digital Strategy", "UX/UI Design", "Employer Branding"],
+    coverImage: "/images/case-studies/stadtwerke-cover.jpg",
+    galleryImages: ["/images/case-studies/stadtwerke-1.jpg", "/images/case-studies/stadtwerke-2.jpg"],
+  },
+];
